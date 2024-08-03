@@ -46,8 +46,8 @@ form.onsubmit = async (ev) => {
       model: "gemini-1.5-flash", // or gemini-1.5-pro
       safetySettings: [
         {
-          category: HarmCategory.HARM_CATEGORY_HARASSMENT,
-          threshold: HarmBlockThreshold.BLOCK_ONLY_HIGH,
+          category: HarmCategory.HARM_CATEGORY_HARASSMENT.,
+          threshold: HarmBlockThreshold.BLOCK_NONE,
         },
       ],
     });
